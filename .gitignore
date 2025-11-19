@@ -1,10 +1,10 @@
 # ROS2 workspace build artifacts
-ws/build/
-ws/install/
-ws/log/
+*/build/
+*/install/
+*/log/
 
 # colcon metadata
-.colcon/
+*/.colcon/
 
 # Python cache files
 **/__pycache__/
