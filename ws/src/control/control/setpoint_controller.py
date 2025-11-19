@@ -39,7 +39,7 @@ class SetpointController(Node):
 
         # Thresholds for stopping motion
         self.declare_parameter("rho_stop", 0.02)
-        self.declare_parameter("yaw_stop", 0.15)
+        self.declare_parameter("yaw_stop", 0.2)
 
         # Maximum speed limits
         self.declare_parameter("v_max", 0.8)
@@ -154,7 +154,7 @@ class SetpointController(Node):
         w = self.k_alpha * alpha + self.k_beta * beta
 
         v_min = 0.05
-        w_min = 0.2
+        w_min = 0.25
 
         # Enforce a minimum linear speed if still far from goal
         if rho > self.rho_stop and abs(v) < v_min:
