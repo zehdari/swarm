@@ -1,7 +1,7 @@
 # ROS2 workspace build artifacts
-build/
-install/
-log/
+ws/build/
+ws/install/
+ws/log/
 
 # colcon metadata
 .colcon/
