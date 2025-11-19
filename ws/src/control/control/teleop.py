@@ -90,7 +90,6 @@ def main(args=None):
     try:
         while rclpy.ok():
             node.step()
-            # keep ROS callbacks alive (we don't really use any here, but good practice)
             rclpy.spin_once(node, timeout_sec=0.0)
     except KeyboardInterrupt:
         node.get_logger().info("KeyboardInterrupt, shutting down.")
