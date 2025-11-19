@@ -7,16 +7,16 @@ from sensor_msgs.msg import JointState
 import pygame
 
 
-class PygameTeleop(Node):
+class TeleopController(Node):
     def __init__(self):
-        super().__init__('teleop')
+        super().__init__('teleop_controller')
 
         # ROS publisher
         self.pub = self.create_publisher(JointState, '/wheelVel', 10)
 
         # Params
-        self.declare_parameter('wheel_speed', 10.0)
-        self.declare_parameter('turn_speed', 5.0)
+        self.declare_parameter('wheel_speed', 5.0)
+        self.declare_parameter('turn_speed', 2.5)
         self.declare_parameter('rate', 30.0)
 
         self.wheel_speed = self.get_parameter('wheel_speed').value
@@ -85,7 +85,7 @@ class PygameTeleop(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = PygameTeleop()
+    node = TeleopController()
 
     try:
         while rclpy.ok():
