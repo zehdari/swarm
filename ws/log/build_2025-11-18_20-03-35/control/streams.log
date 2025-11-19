@@ -1,0 +1,37 @@
+[0.854s] Invoking command in '/home/cameron/Research/swarm/ws/src/control': PYTHONPATH=/home/cameron/Research/swarm/ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cameron/Research/swarm/ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/cameron/Research/swarm/ws/build/control/build install --record /home/cameron/Research/swarm/ws/build/control/install.log --single-version-externally-managed install_data
+[1.069s] running egg_info
+[1.069s] creating ../../build/control/control.egg-info
+[1.084s] writing ../../build/control/control.egg-info/PKG-INFO
+[1.084s] writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt
+[1.084s] writing entry points to ../../build/control/control.egg-info/entry_points.txt
+[1.084s] writing requirements to ../../build/control/control.egg-info/requires.txt
+[1.085s] writing top-level names to ../../build/control/control.egg-info/top_level.txt
+[1.085s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[1.116s] reading manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[1.116s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[1.117s] running build
+[1.117s] running build_py
+[1.117s] creating /home/cameron/Research/swarm/ws/build/control/build
+[1.117s] creating /home/cameron/Research/swarm/ws/build/control/build/lib
+[1.117s] creating /home/cameron/Research/swarm/ws/build/control/build/lib/control
+[1.117s] copying control/teleop.py -> /home/cameron/Research/swarm/ws/build/control/build/lib/control
+[1.123s] copying control/__init__.py -> /home/cameron/Research/swarm/ws/build/control/build/lib/control
+[1.123s] running install
+[1.128s] running install_lib
+[1.143s] creating /home/cameron/Research/swarm/ws/install/control/lib/python3.10/site-packages/control
+[1.143s] copying /home/cameron/Research/swarm/ws/build/control/build/lib/control/teleop.py -> /home/cameron/Research/swarm/ws/install/control/lib/python3.10/site-packages/control
+[1.144s] copying /home/cameron/Research/swarm/ws/build/control/build/lib/control/__init__.py -> /home/cameron/Research/swarm/ws/install/control/lib/python3.10/site-packages/control
+[1.144s] byte-compiling /home/cameron/Research/swarm/ws/install/control/lib/python3.10/site-packages/control/teleop.py to teleop.cpython-310.pyc
+[1.144s] byte-compiling /home/cameron/Research/swarm/ws/install/control/lib/python3.10/site-packages/control/__init__.py to __init__.cpython-310.pyc
+[1.145s] running install_data
+[1.145s] creating /home/cameron/Research/swarm/ws/install/control/share/ament_index
+[1.145s] creating /home/cameron/Research/swarm/ws/install/control/share/ament_index/resource_index
+[1.145s] creating /home/cameron/Research/swarm/ws/install/control/share/ament_index/resource_index/packages
+[1.145s] copying resource/control -> /home/cameron/Research/swarm/ws/install/control/share/ament_index/resource_index/packages
+[1.145s] copying package.xml -> /home/cameron/Research/swarm/ws/install/control/share/control
+[1.145s] running install_egg_info
+[1.162s] Copying ../../build/control/control.egg-info to /home/cameron/Research/swarm/ws/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+[1.162s] running install_scripts
+[1.300s] Installing teleop script to /home/cameron/Research/swarm/ws/install/control/lib/control
+[1.300s] writing list of installed files to '/home/cameron/Research/swarm/ws/build/control/install.log'
+[1.319s] Invoked command in '/home/cameron/Research/swarm/ws/src/control' returned '0': PYTHONPATH=/home/cameron/Research/swarm/ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cameron/Research/swarm/ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/cameron/Research/swarm/ws/build/control/build install --record /home/cameron/Research/swarm/ws/build/control/install.log --single-version-externally-managed install_data

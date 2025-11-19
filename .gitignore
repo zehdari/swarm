@@ -1,0 +1,16 @@
+# ROS2 workspace build artifacts
+build/
+install/
+log/
+
+# colcon metadata
+.colcon/
+
+# Python cache files
+**/__pycache__/
+*.pyc
+*.pyo
+
+# VSCode / IDE stuff (optional)
+.vscode/
+.idea/
